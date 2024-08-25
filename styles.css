@@ -1,30 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header, section, #voting-box, #blog {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#voting-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 20px auto; /* Center the voting box */
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#vote-result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}
+
 #blog {
     margin: 40px 0;
     padding: 20px;
-    background-color: #f9f9f9; /* Light gray background */
-    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9;
+    border-radius: 8px;
 }
 
 #blog h2 {
     font-size: 28px;
     margin-bottom: 40px;
-    color: #333; /* Darker text color */
+    color: #333;
 }
 
 #blog article {
     margin-bottom: 30px;
     padding: 20px;
-    border: 1px solid #ddd; /* Light border */
-    border-radius: 8px; /* Rounded corners */
-    background-color: #fff; /* White background for posts */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #blog article h3 {
     font-size: 22px;
     margin-top: 0;
     margin-bottom: 15px;
-    color: #555; /* Slightly lighter text color */
+    color: #555;
 }
 
 #blog article p {
@@ -36,4 +89,3 @@
     color: #999;
     font-size: 14px;
 }
-

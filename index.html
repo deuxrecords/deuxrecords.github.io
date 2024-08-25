@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Music Site</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-     <!-- Other content like header, blog, etc. -->
+    <!-- Other content like header, blog, etc. -->
     <header>
         <h1>Welcome to My Music Site</h1>
     </header>
@@ -41,6 +42,28 @@
 
         <!-- Add more blog posts as needed -->
     </section>
+
+    <!-- Voting Box -->
+    <div id="voting-box">
+        <h1>Voting is now open!</h1>
+        <form id="vote-form">
+            <label>
+                <input type="radio" name="vote" value="CNP">
+                CNP
+            </label>
+            <label>
+                <input type="radio" name="vote" value="OGP">
+                OGP
+            </label>
+            <label>
+                <input type="radio" name="vote" value="FMB">
+                FMB
+            </label>
+            <button type="button" id="submit-vote">Submit Vote</button>
+        </form>
+        <div id="vote-result"></div>
+        <div id="countdown-timer"></div>
+    </div>
 
     <nav>
         <a href="https://instagram.com/plugdeux" target="_blank">Instagram</a>
