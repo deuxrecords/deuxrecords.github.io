@@ -1,0 +1,39 @@
+#blog {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+}
+
+#blog h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #333; /* Darker text color */
+}
+
+#blog article {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff; /* White background for posts */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#blog article h3 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #555; /* Slightly lighter text color */
+}
+
+#blog article p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#blog article small {
+    color: #999;
+    font-size: 14px;
+}
+
