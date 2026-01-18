@@ -2,6 +2,7 @@ baseURL = 'https://yourusername.github.io/your-repo-name/'
 languageCode = 'en-us'
 title = 'Deux Records'
 theme = 'PaperMod'
+googleAnalytics = ''
 
 [params]
     defaultTheme = "dark" # Perfect for the analog/studio vibe
