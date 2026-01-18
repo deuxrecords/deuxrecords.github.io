@@ -2,20 +2,22 @@ baseURL = 'https://deuxrecords.com/'
 languageCode = 'en-us'
 title = 'Deux Records'
 theme = 'PaperMod'
-googleAnalytics = ''
 
 [params]
+    # Minimalism Settings
     defaultTheme = "dark"
-    showReadingTime = true
+    showReadingTime = false        # Removes "1 min read"
     displayFullContent = false
-    ShowPostNavLinks = true
-    
-    # Footer and Credit settings
-    ShowShareButtons = true
+    ShowPostNavLinks = false       # Removes "Next/Previous Post" buttons
+    ShowShareButtons = false       # Removes the FB, Reddit, etc. clutter
     ShowCodeCopyButtons = true
-    hideFooter = false 
+    
+    # Footer & Credits
+    hideFooter = false             # Keep this false so your icons show
     showCopyright = true
     disableHugoGeneratorInject = true
+    # This is the secret for PaperMod to hide "Powered by"
+    hideHTMLEndComnt = true 
 
     [params.homeInfoParams]
         Title = "Beatmaking, Sound Design, & Crate Digging"
