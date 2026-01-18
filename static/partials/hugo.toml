@@ -1,0 +1,8 @@
+<footer class="footer">
+    {{- if .Site.Params.socialIcons }}
+    <div class="social-icons">
+        {{- partial "social_icons.html" .Site.Params.socialIcons -}}
+    </div>
+    {{- end }}
+    <span>&#8471;&copy; {{ now.Year }} Deux Recording Archives</span>
+</footer>
