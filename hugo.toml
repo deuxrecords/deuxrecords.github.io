@@ -1,0 +1,30 @@
+baseURL = 'https://yourusername.github.io/your-repo-name/'
+languageCode = 'en-us'
+title = 'Deux Records'
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = "dark" # Perfect for the analog/studio vibe
+    showReadingTime = true
+    displayFullContent = false
+    ShowPostNavLinks = true
+
+    [params.homeInfoParams]
+        Title = "Crate Digging & Beat Making"
+        Content = "refreshing."
+
+    [[params.socialIcons]]
+        name = "bandcamp"
+        url = "https://plugdeux.bandcamp.com"
+
+    [[params.socialIcons]]
+        name = "instagram"
+        url = "https://instagram.com/plugdeux"
+
+    [[params.socialIcons]]
+        name = "tiktok"
+        url = "https://tiktok.com/@plugdeux"
+    
+    [[params.socialIcons]]
+        name = "youtube"
+        url = "https://youtube.com/u/plugdeux"
