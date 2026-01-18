@@ -1,8 +1,23 @@
-<footer class="footer">
-    {{- if .Site.Params.socialIcons }}
-    <div class="social-icons">
-        {{- partial "social_icons.html" .Site.Params.socialIcons -}}
-    </div>
-    {{- end }}
-    <span>&#8471;&copy; {{ now.Year }} Deux Recording Archives</span>
-</footer>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.65">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;footer class="footer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>{{- if .Site.Params.socialIcons }}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="social-icons"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{{- partial "social_icons.html" (dict "socialIcons" .Site.Params.socialIcons "align" "center") -}}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>{{- end }}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span&gt;&amp;#8471;&amp;copy; {{ now.Year }} Deux Recording Archives&lt;/span&gt;</p>
+<p class="p1">&lt;/footer&gt;</p>
+</body>
+</html>
