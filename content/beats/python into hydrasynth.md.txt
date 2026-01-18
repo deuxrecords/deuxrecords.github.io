@@ -1,0 +1,5 @@
+---
+title: “python into hydrasynth”
+draft: false
+description: “pulled mido into python to control the hydrasynth using midi. it’s pretty powerful, i may play with it more tomorrow”
+---

@@ -19,13 +19,13 @@ googleAnalytics = ''
         url = "https://plugdeux.bandcamp.com"
 
     [[params.socialIcons]]
-        name = "instagram"
-        url = "https://instagram.com/plugdeux"
+        name = "youtube"
+        url = "https://youtube.com/@plugdeux"
 
     [[params.socialIcons]]
         name = "tiktok"
         url = "https://tiktok.com/@plugdeux"
     
     [[params.socialIcons]]
-        name = "youtube"
-        url = "https://youtube.com/u/plugdeux"
+        name = "instagram"
+        url = "https://instagram.com/plugdeux"
