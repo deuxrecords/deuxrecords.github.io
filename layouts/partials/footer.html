@@ -1,14 +1,8 @@
 <footer class="footer">
+    {{- if .Site.Params.socialIcons }}
     <div class="social-icons">
-        {{- if .Site.Params.socialIcons -}}
-            {{- range .Site.Params.socialIcons -}}
-            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" style="margin: 0 10px; text-decoration: none;">
-                {{ .name | humanize }}
-            </a>
-            {{- end -}}
-        {{- end -}}
+        {{- partial "social_icons.html" (dict "socialIcons" .Site.Params.socialIcons "align" "center") -}}
     </div>
-    <span style="font-size: 0.9em; opacity: 0.8; display: flex; align-items: center; justify-content: center; gap: 2px;">
-        <span style="font-size: 1.15em; line-height: 0;">&#8471;</span>&#169; {{ now.Year }} Deux Recording Archives
-    </span>
+    {{- end }}
+    <span>&#8471;&copy; {{ now.Year }} Deux Recording Archives</span>
 </footer>
