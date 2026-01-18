@@ -11,8 +11,16 @@ googleAnalytics = ''
     ShowPostNavLinks = true
 
     [params.homeInfoParams]
-        Title = "Crate Digging & Beat Making"
+        Title = "Beatmaking, Sound Design, & Crate Digging"
         Content = "refreshing."
+
+    [params]
+    # This tells PaperMod to show the icons in the footer
+        ShowShareButtons = true
+        ShowCodeCopyButtons = true
+        hideFooter = false # Keep the footer visible for your socials
+        showCopyright = true
+        disableHugoGeneratorInject = true
 
     [[params.socialIcons]]
         name = "bandcamp"
