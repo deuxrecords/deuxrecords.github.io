@@ -1,5 +1,9 @@
 ---
-title: “python into hydrasynth”
+title: "python into hydrasynth"
+slug: "python-hydra"
+date: 2026-01-18
 draft: false
-description: “pulled mido into python to control the hydrasynth using midi. it’s pretty powerful, i may play with it more tomorrow”
+tags: ["python", "hydrasynth",]
 ---
+
+pulled mido library into python to control the hydrasynth using midi. it’s pretty powerful, I may play with it more tomorrow.
